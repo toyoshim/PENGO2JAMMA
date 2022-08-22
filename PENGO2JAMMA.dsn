@@ -1,0 +1,373 @@
+(pcb /Users/toyoshim/Work/GitHub/KiCAD/PENGO2JAMMA/PENGO2JAMMA.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(6.0.6-0)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  199136 -121920  114300 -121920  114300 -111506  110236 -111506
+            110236 -121920  84836 -121920  84836 -86360  199136 -86360  199136 -121920)
+    )
+    (plane /GND8 (polygon F.Cu 0  85090 -86995  85090 -113030  198755 -113030  198755 -86995
+            85090 -86995))
+    (via_keepout "" (polygon F.Cu 0  199263 -121920  84963 -121920  84963 -112776  199263 -112776
+            199263 -121920))
+    (via_keepout "" (polygon B.Cu 0  199263 -121920  84963 -121920  84963 -112776  199263 -112776
+            199263 -121920))
+    (keepout "" (polygon F.Cu 0  199009 -106426  182626 -106426  180086 -103251  180086 -97536
+            184277 -92583  184277 -86487  199136 -86487  199009 -106426))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component toyoshim:Penguin
+      (place G1 189868.187000 -96699.061000 front 0.000000 (PN LOGO))
+      (place G2 189868.187000 -96699.061000 front 0.000000 (PN LOGO))
+    )
+    (component toyoshim:Connector_Edge_3.96mm_02x28_Row_JAMMA
+      (place J4 141980.000000 -116840.000000 front 0.000000 (PN JAMMA))
+    )
+    (component toyoshim:Connector_Edge_3.96mm_02x22_Row_PENGO
+      (place J1 130175.000000 -87376.000000 front 0.000000 (PN PENGO))
+    )
+  )
+  (library
+    (image toyoshim:Penguin
+    )
+    (image toyoshim:Connector_Edge_3.96mm_02x28_Row_JAMMA
+      (pin Rect[T]Pad_1980x9900_um a1 -53460 0)
+      (pin Rect[T]Pad_1980x9900_um a2 -49500 0)
+      (pin Rect[T]Pad_1980x9900_um a3 -45540 0)
+      (pin Rect[T]Pad_1980x9900_um a4 -41580 0)
+      (pin Rect[T]Pad_1980x9900_um a5 -37620 0)
+      (pin Rect[T]Pad_1980x9900_um a6 -33660 0)
+      (pin Rect[T]Pad_1980x9900_um a7 -29700 0)
+      (pin Rect[T]Pad_1980x9900_um a8 -25740 0)
+      (pin Rect[T]Pad_1980x9900_um a9 -21780 0)
+      (pin Rect[T]Pad_1980x9900_um a10 -17820 0)
+      (pin Rect[T]Pad_1980x9900_um a11 -13860 0)
+      (pin Rect[T]Pad_1980x9900_um a12 -9900 0)
+      (pin Rect[T]Pad_1980x9900_um a13 -5940 0)
+      (pin Rect[T]Pad_1980x9900_um a14 -1980 0)
+      (pin Rect[T]Pad_1980x9900_um a15 1980 0)
+      (pin Rect[T]Pad_1980x9900_um a16 5940 0)
+      (pin Rect[T]Pad_1980x9900_um a17 9900 0)
+      (pin Rect[T]Pad_1980x9900_um a18 13860 0)
+      (pin Rect[T]Pad_1980x9900_um a19 17820 0)
+      (pin Rect[T]Pad_1980x9900_um a20 21780 0)
+      (pin Rect[T]Pad_1980x9900_um a21 25740 0)
+      (pin Rect[T]Pad_1980x9900_um a22 29700 0)
+      (pin Rect[T]Pad_1980x9900_um a23 33660 0)
+      (pin Rect[T]Pad_1980x9900_um a24 37620 0)
+      (pin Rect[T]Pad_1980x9900_um a25 41580 0)
+      (pin Rect[T]Pad_1980x9900_um a26 45540 0)
+      (pin Rect[T]Pad_1980x9900_um a27 49500 0)
+      (pin Rect[T]Pad_1980x9900_um a28 53460 0)
+      (pin Rect[B]Pad_1980x9900_um b1 -53460 0)
+      (pin Rect[B]Pad_1980x9900_um b2 -49500 0)
+      (pin Rect[B]Pad_1980x9900_um b3 -45540 0)
+      (pin Rect[B]Pad_1980x9900_um b4 -41580 0)
+      (pin Rect[B]Pad_1980x9900_um b5 -37620 0)
+      (pin Rect[B]Pad_1980x9900_um b6 -33660 0)
+      (pin Rect[B]Pad_1980x9900_um b7 -29700 0)
+      (pin Rect[B]Pad_1980x9900_um b8 -25740 0)
+      (pin Rect[B]Pad_1980x9900_um b9 -21780 0)
+      (pin Rect[B]Pad_1980x9900_um b10 -17820 0)
+      (pin Rect[B]Pad_1980x9900_um b11 -13860 0)
+      (pin Rect[B]Pad_1980x9900_um b12 -9900 0)
+      (pin Rect[B]Pad_1980x9900_um b13 -5940 0)
+      (pin Rect[B]Pad_1980x9900_um b14 -1980 0)
+      (pin Rect[B]Pad_1980x9900_um b15 1980 0)
+      (pin Rect[B]Pad_1980x9900_um b16 5940 0)
+      (pin Rect[B]Pad_1980x9900_um b17 9900 0)
+      (pin Rect[B]Pad_1980x9900_um b18 13860 0)
+      (pin Rect[B]Pad_1980x9900_um b19 17820 0)
+      (pin Rect[B]Pad_1980x9900_um b20 21780 0)
+      (pin Rect[B]Pad_1980x9900_um b21 25740 0)
+      (pin Rect[B]Pad_1980x9900_um b22 29700 0)
+      (pin Rect[B]Pad_1980x9900_um b23 33660 0)
+      (pin Rect[B]Pad_1980x9900_um b24 37620 0)
+      (pin Rect[B]Pad_1980x9900_um b25 41580 0)
+      (pin Rect[B]Pad_1980x9900_um b26 45540 0)
+      (pin Rect[B]Pad_1980x9900_um b27 49500 0)
+      (pin Rect[B]Pad_1980x9900_um b28 53460 0)
+    )
+    (image toyoshim:Connector_Edge_3.96mm_02x22_Row_PENGO
+      (pin Rect[T]Pad_1980x9900_um a1 -41580 0)
+      (pin Rect[T]Pad_1980x9900_um a2 -37620 0)
+      (pin Rect[T]Pad_1980x9900_um a3 -33660 0)
+      (pin Rect[T]Pad_1980x9900_um a4 -29700 0)
+      (pin Rect[T]Pad_1980x9900_um a5 -25740 0)
+      (pin Rect[T]Pad_1980x9900_um a6 -21780 0)
+      (pin Rect[T]Pad_1980x9900_um a7 -17820 0)
+      (pin Rect[T]Pad_1980x9900_um a8 -13860 0)
+      (pin Rect[T]Pad_1980x9900_um a9 -9900 0)
+      (pin Rect[T]Pad_1980x9900_um a10 -5940 0)
+      (pin Rect[T]Pad_1980x9900_um a11 -1980 0)
+      (pin Rect[T]Pad_1980x9900_um a12 1980 0)
+      (pin Rect[T]Pad_1980x9900_um a13 5940 0)
+      (pin Rect[T]Pad_1980x9900_um a14 9900 0)
+      (pin Rect[T]Pad_1980x9900_um a15 13860 0)
+      (pin Rect[T]Pad_1980x9900_um a16 17820 0)
+      (pin Rect[T]Pad_1980x9900_um a17 21780 0)
+      (pin Rect[T]Pad_1980x9900_um a18 25740 0)
+      (pin Rect[T]Pad_1980x9900_um a19 29700 0)
+      (pin Rect[T]Pad_1980x9900_um a20 33660 0)
+      (pin Rect[T]Pad_1980x9900_um a21 37620 0)
+      (pin Rect[T]Pad_1980x9900_um a22 41580 0)
+      (pin Rect[B]Pad_1980x9900_um b1 -41580 0)
+      (pin Rect[B]Pad_1980x9900_um b2 -37620 0)
+      (pin Rect[B]Pad_1980x9900_um b3 -33660 0)
+      (pin Rect[B]Pad_1980x9900_um b4 -29700 0)
+      (pin Rect[B]Pad_1980x9900_um b5 -25740 0)
+      (pin Rect[B]Pad_1980x9900_um b6 -21780 0)
+      (pin Rect[B]Pad_1980x9900_um b7 -17820 0)
+      (pin Rect[B]Pad_1980x9900_um b8 -13860 0)
+      (pin Rect[B]Pad_1980x9900_um b9 -9900 0)
+      (pin Rect[B]Pad_1980x9900_um b10 -5940 0)
+      (pin Rect[B]Pad_1980x9900_um b11 -1980 0)
+      (pin Rect[B]Pad_1980x9900_um b12 1980 0)
+      (pin Rect[B]Pad_1980x9900_um b13 5940 0)
+      (pin Rect[B]Pad_1980x9900_um b14 9900 0)
+      (pin Rect[B]Pad_1980x9900_um b15 13860 0)
+      (pin Rect[B]Pad_1980x9900_um b16 17820 0)
+      (pin Rect[B]Pad_1980x9900_um b17 21780 0)
+      (pin Rect[B]Pad_1980x9900_um b18 25740 0)
+      (pin Rect[B]Pad_1980x9900_um b19 29700 0)
+      (pin Rect[B]Pad_1980x9900_um b20 33660 0)
+      (pin Rect[B]Pad_1980x9900_um b21 37620 0)
+      (pin Rect[B]Pad_1980x9900_um b22 41580 0)
+    )
+    (padstack Rect[B]Pad_1980x9900_um
+      (shape (rect B.Cu -990 -4950 990 4950))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1980x9900_um
+      (shape (rect F.Cu -990 -4950 990 4950))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net /1PS
+      (pins J4-a17 J1-a10)
+    )
+    (net /1P2
+      (pins J4-a23)
+    )
+    (net /1P1
+      (pins J4-a22 J1-a6)
+    )
+    (net /1PR
+      (pins J4-a21 J1-b11)
+    )
+    (net /1PU
+      (pins J4-a18 J1-a12)
+    )
+    (net /1PC
+      (pins J4-a16 J1-a8)
+    )
+    (net /1PD
+      (pins J4-a19 J1-b14)
+    )
+    (net /1P3
+      (pins J4-a24)
+    )
+    (net /GREEN
+      (pins J4-b12 J1-b16)
+    )
+    (net /RED
+      (pins J4-a12 J1-a16)
+    )
+    (net /TEST
+      (pins J4-a15 J1-a9)
+    )
+    (net /2PL
+      (pins J4-b20 J1-a13)
+    )
+    (net /2P1
+      (pins J4-b22 J1-a7)
+    )
+    (net "/-5V"
+      (pins J4-a5 J4-b5)
+    )
+    (net /12V
+      (pins J4-a6 J4-b6 J1-a19 J1-b19)
+    )
+    (net /S+
+      (pins J4-a10 J1-b18)
+    )
+    (net /2P2
+      (pins J4-b23)
+    )
+    (net /2PR
+      (pins J4-b21 J1-b13)
+    )
+    (net /2PS
+      (pins J4-b17 J1-b10)
+    )
+    (net /2PU
+      (pins J4-b18 J1-b12)
+    )
+    (net /SVC
+      (pins J4-b14 J1-b9)
+    )
+    (net /1PL
+      (pins J4-a20 J1-a11)
+    )
+    (net /2PD
+      (pins J4-b19 J1-a18)
+    )
+    (net /2PC
+      (pins J4-b16 J1-b8)
+    )
+    (net /CC1
+      (pins J4-a8 J1-b7)
+    )
+    (net /CC2
+      (pins J4-b8 J1-b6)
+    )
+    (net /BLUE
+      (pins J4-a13 J1-a17)
+    )
+    (net /SYNC
+      (pins J4-b13 J1-b17)
+    )
+    (net /2P3
+      (pins J4-b24)
+    )
+    (net "unconnected-(J1-Pada14)"
+      (pins J1-a14)
+    )
+    (net "unconnected-(J1-Pada20)"
+      (pins J1-a20)
+    )
+    (net "unconnected-(J1-Padb20)"
+      (pins J1-b20)
+    )
+    (net "unconnected-(J4-Pada7)"
+      (pins J4-a7)
+    )
+    (net "unconnected-(J4-Pada9)"
+      (pins J4-a9)
+    )
+    (net "unconnected-(J4-Pada11)"
+      (pins J4-a11)
+    )
+    (net "unconnected-(J4-Pada25)"
+      (pins J4-a25)
+    )
+    (net "unconnected-(J4-Pada26)"
+      (pins J4-a26)
+    )
+    (net "unconnected-(J4-Padb7)"
+      (pins J4-b7)
+    )
+    (net "unconnected-(J4-Padb9)"
+      (pins J4-b9)
+    )
+    (net "unconnected-(J4-Padb11)"
+      (pins J4-b11)
+    )
+    (net "unconnected-(J4-Padb15)"
+      (pins J4-b15)
+    )
+    (net "unconnected-(J4-Padb25)"
+      (pins J4-b25)
+    )
+    (net "unconnected-(J4-Padb26)"
+      (pins J4-b26)
+    )
+    (net /GND1
+      (pins J4-a1 J1-a1)
+    )
+    (net /GND2
+      (pins J4-a2 J1-a2)
+    )
+    (net /5V1
+      (pins J4-a3 J1-a3)
+    )
+    (net /5V2
+      (pins J4-a4 J1-a4 J1-a5)
+    )
+    (net /GND5
+      (pins J4-a14 J4-a27 J1-a15 J1-a21)
+    )
+    (net /GND6
+      (pins J4-a28 J1-a22)
+    )
+    (net /GND3
+      (pins J4-b1 J1-b1)
+    )
+    (net /GND4
+      (pins J4-b2 J1-b2)
+    )
+    (net /5V3
+      (pins J4-b3 J1-b3 J1-b4)
+    )
+    (net /5V4
+      (pins J4-b4 J1-b5)
+    )
+    (net /GND7
+      (pins J4-b10 J4-b27 J1-b15 J1-b21)
+    )
+    (net /GND8
+      (pins J4-b28 J1-b22)
+    )
+    (class kicad_default
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class Analog /BLUE /GREEN /RED /S+ /SYNC
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 500)
+        (clearance 200.1)
+      )
+    )
+    (class Power "/-5V" /12V /5V1 /5V2 /5V3 /5V4 /GND1 /GND2 /GND3 /GND4 /GND5
+      /GND6 /GND7 /GND8
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
